@@ -3,7 +3,9 @@ from sqlalchemy.orm import relationship
 from lib.database import Base
 
 class Album(Base):
-    """defines the album class"""
+    """defines the album class
+    """
+
     __tablename__ = 'albums'
 
     id = Column(Integer, primary_key=True, index=True)

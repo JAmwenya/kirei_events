@@ -1,10 +1,11 @@
-# lib/models/artist.py
-
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.orm import relationship
 from lib.database import Base
 
 class Artist(Base):
+    """defines the artist class
+    """
+
     __tablename__ = 'artists'
 
     id = Column(Integer, primary_key=True, index=True)
