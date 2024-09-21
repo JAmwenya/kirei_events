@@ -1,5 +1,4 @@
-# lib/cli.py
-
+#!/usr/bin/python3
 from helpers import (
     exit_program,
     create_artist,

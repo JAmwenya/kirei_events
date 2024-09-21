@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 from lib.models.artist import Artist
 from lib.models.album import Album
 from lib.database import SessionLocal
