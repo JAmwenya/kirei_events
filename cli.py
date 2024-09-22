@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+from models.artist import Artist
+from models.album import Album
 from helpers import (
     exit_program,
     create_artist,

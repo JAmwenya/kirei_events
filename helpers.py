@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-from lib.models.artist import Artist
-from lib.models.album import Album
-from lib.database import SessionLocal
+from models.artist import Artist
+from models.album import Album
+from database import SessionLocal
 
 # exit the program
 def exit_program():

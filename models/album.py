@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 from sqlalchemy import Column, Integer, String, ForeignKey
 from sqlalchemy.orm import relationship
-from lib.database import Base
+from database import Base
 
 class Album(Base):
     """defines the album class

@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.orm import relationship
-from lib.database import Base
+from database import Base
 
 class Artist(Base):
     """defines the artist class
